@@ -3,7 +3,7 @@
 def main():
   wave=int(input("Enter the wavelength in nm: "))
   if 380<=wave<450:
-      print("The relvant color is Violet")
+      print("The relevant color is Violet")
   elif 450<=wave<495:
       print("The relevant color is Blue")
   elif 495<=wave<570:
