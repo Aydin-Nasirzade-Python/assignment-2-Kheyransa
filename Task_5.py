@@ -23,12 +23,12 @@ def main():
       print(f"Your zodiac sign is Virgo")
   elif (month=="September" and 23<=day<=30) or (month=="October" and 0<day<=22):
       print(f"Your zodiac sign is Libra")
-  else:
-      print("Either a month or a day is invalid!")
   elif (month=="October" and 23<=day<=31) or (month=="November" and 0<day<=21):
       print(f"Your zodiac sign is Scorpion")
   elif (month=="November" and 22<=day<=30) or (month=="December" and 0<day<=21):
       print(f"Your zodiac sign is Sagittarius")
+  else:
+      print("Either a month or a day is invalid!")
   pass
 
 if __name__ == "__main__":
